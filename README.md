@@ -30,9 +30,5 @@ if userinput == 'y':
             elif number % 7 == 0:
                 print('Plong')
 
-            elif number < 36:
-                print(number)
-
-
             else:
                 print(number)
