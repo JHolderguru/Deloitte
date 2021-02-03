@@ -1,5 +1,5 @@
 ```python
-print('welcome to my function please press q to quit! ')
+print('welcome to my function written in python, please press q to quit! ')
 userinput = str(input('press y to continue: '))
 if userinput == 'y':
 
