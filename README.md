@@ -1,6 +1,8 @@
 ```python
 print('welcome to my function written in python, please press q to quit! ')
+
 userinput = str(input('press y to continue: '))
+
 if userinput == 'y':
 
         while True:
@@ -10,7 +12,6 @@ if userinput == 'y':
                 break
 
             number = int(numberinput)
-
 
             if number % 3 == 0 and number % 5 == 0:
                 print('PlingPlang')
